@@ -11,9 +11,9 @@ class VendinMachine extends Component {
     return(
       <div className='Vending-Machine'>
         <h1>This is the Vending Machine Component</h1>
-        <Water />
-        <Carrots />
-        <Fruit />
+        {/* <Water />
+        // <Carrots />
+        // <Fruit /> */}
       </div>
     )
   }
