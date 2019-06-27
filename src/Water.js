@@ -11,9 +11,11 @@ class Water extends Component {
   render(){
     return(
       <div className='Vending-Machine'>
+      <Message>
         <h1>This is Water Component</h1>
         <img src={waterIMG} alt='water' className='drop'></img>
         <Link to='/'>Back</Link>
+        </Message> 
       </div>
     )
   }

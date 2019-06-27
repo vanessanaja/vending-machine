@@ -9,8 +9,10 @@ class Carrots extends Component {
   render(){
     return(
       <div className='Vending-Machine'>
+      <Message>
         <h1>This is the Carrots Component</h1>
         <Link to='/'>Back</Link>
+      </Message>
       </div>
     )
   }
