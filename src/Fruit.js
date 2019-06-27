@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import Message from './Message';
 
 class Fruit extends Component {
   constructor(props){

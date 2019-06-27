@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import Message from './Message';
 import waterIMG from './waterIMG.png';
 import './Water.css';
 
