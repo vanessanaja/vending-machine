@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import Water from './Water';
 import Carrots from './Carrots';
 import Fruit from './Fruit'
@@ -11,9 +12,9 @@ class VendinMachine extends Component {
     return(
       <div className='Vending-Machine'>
         <h1>This is the Vending Machine Component</h1>
-        {/* <Water />
-        // <Carrots />
-        // <Fruit /> */}
+        <Link to='/water'>Water</Link>
+        <Link to='/carrots'>Carrots</Link>
+        <Link to='/fruit'>Fruit</Link>
       </div>
     )
   }

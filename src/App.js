@@ -9,10 +9,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Route exact path='/' render={() => <VendingMachine />} />  
-      <Route exact path='/water' render={() => <Water/>} />  
-      <Route exact path='/carrots' render={() => <Carrots />} />
-      <Route exact path='/fruit' render={() => <Fruit />} />  
+      <Switch>
+        <Route exact path='/' render={() => <VendingMachine />} />  
+        <Route exact path='/water' render={() => <Water/>} />  
+        <Route exact path='/carrots' render={() => <Carrots />} />
+        <Route exact path='/fruit' render={() => <Fruit />} />  
+      </Switch>
     </div>
   );
 }
