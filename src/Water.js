@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Water extends Component {
   constructor(props){
@@ -8,6 +9,7 @@ class Water extends Component {
     return(
       <div className='Vending-Machine'>
         <h1>This is Water Component</h1>
+        <Link to='/'>Back</Link>
       </div>
     )
   }

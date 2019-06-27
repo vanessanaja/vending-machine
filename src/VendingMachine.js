@@ -12,9 +12,9 @@ class VendinMachine extends Component {
     return(
       <div className='Vending-Machine'>
         <h1>This is the Vending Machine Component</h1>
-        <Link to='/water'>Water</Link>
-        <Link to='/carrots'>Carrots</Link>
-        <Link to='/fruit'>Fruit</Link>
+        <Link exact to='/water'>Water</Link>
+        <Link exact to='/carrots'>Carrots</Link>
+        <Link exact to='/fruit'>Fruit</Link>
       </div>
     )
   }
